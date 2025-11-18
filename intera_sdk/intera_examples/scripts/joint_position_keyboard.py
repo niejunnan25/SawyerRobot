@@ -25,6 +25,8 @@ import intera_external_devices
 
 from intera_interface import CHECK_VERSION
 
+# 原生脚本是单任务串行的，就像打字一样，一次敲一个键，机器人做一个动作。
+
 
 def map_keyboard(side):
     limb = intera_interface.Limb(side)
